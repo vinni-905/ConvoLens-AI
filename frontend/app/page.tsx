@@ -1,4 +1,5 @@
 import Navbar from "@/components/layout/Navbar";
+import Features from "@/components/home/Features";
 
 export default function Home() {
   return (
@@ -57,7 +58,7 @@ export default function Home() {
 
             {/* RIGHT SIDE — PRODUCT PREVIEW */}
             <div className="relative">
-              {/* Glow behind card */}
+              {/* Glow */}
               <div className="absolute -inset-4 rounded-3xl bg-blue-600/10 blur-3xl" />
 
               <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-slate-900 shadow-2xl shadow-black/40">
@@ -170,6 +171,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* ================= FEATURES ================= */}
+      <Features />
 
       {/* ================= TRUST BAR ================= */}
       <section className="border-y border-white/5 bg-white/2 px-6 py-8">
