@@ -1,5 +1,6 @@
 import Navbar from "@/components/layout/Navbar";
 import Features from "@/components/home/Features";
+import HowItWorks from "@/components/home/HowItWorks";
 
 export default function Home() {
   return (
@@ -174,6 +175,7 @@ export default function Home() {
 
       {/* ================= FEATURES ================= */}
       <Features />
+      <HowItWorks />
 
       {/* ================= TRUST BAR ================= */}
       <section className="border-y border-white/5 bg-white/2 px-6 py-8">
